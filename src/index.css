@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "silksscreenRegular";
+  src: url("../public/Silkscreen-Regular.ttf");
+}
+
+.content-div {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+}
+
+.content-div:hover {
+  background-image: linear-gradient(
+    to bottom,
+    hsl(180, 100%, 25%, 0.5),
+    hsla(0, 0%, 100%, 0.5)
+  ) !important;
+}
