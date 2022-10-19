@@ -12,7 +12,7 @@ function App() {
 
   return (
     <div className={darkMode ? "dark" : ""}>
-      <main className="main bg-gradient-to-b from-white to-white px-5 md:px-32 dark:bg-gray-900 max-w-[1500px]">
+      <main className="main bg-white px-5 md:px-32 dark:bg-gray-900 max-w-[1500px]">
         <Home />
         <NavBar />
         <About />

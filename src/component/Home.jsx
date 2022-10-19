@@ -11,7 +11,7 @@ const Home = () => {
   const { toggleMode } = UserMode();
 
   return (
-    <section name="home" className=" min-h-[92vh]">
+    <section name="home" className=" min-h-[92vh] dark:bg-inherit">
       <nav className="py-10 flex justify-between sm:flex-row flex-col items-center gap-5">
         <h1 className="text-md font-silksscreenRegular dark:text-white">
           Developed<span className="text-teal-400">by</span>Aubrey

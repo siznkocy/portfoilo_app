@@ -4,7 +4,7 @@ const NavBar = () => {
   // todo: position stick to the top when moving downwards/
 
   return (
-    <nav className="sticky top-0 shadow-sm bg-white">
+    <nav className="sticky top-0 shadow-sm bg-inherit">
       <ul className="flex justify-around mx-auto md:max-w-[700px] py-5 transition ease-out delay-150 duration-500 dark:text-white">
         <li className="hover:scale-110 border-b-2 border-teal-500">Home</li>
         <li className="hover:scale-110">About</li>
