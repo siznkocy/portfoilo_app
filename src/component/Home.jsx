@@ -64,7 +64,7 @@ const Home = () => {
           </li>
         </ul>
       </div>
-      <div className="relative mx-auto bg-gradient-to-b from-teal-500 rounded-full overflow-hidden  w-56 h-56">
+      <div className="hidden sm:block mx-auto bg-gradient-to-b from-teal-500 rounded-full overflow-hidden  w-56 h-56">
         <img src="/Sizwe_Nkosi_215026177.png" alt="profile" />
       </div>
     </section>

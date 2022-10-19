@@ -3,7 +3,7 @@ import { SkiilsIcons } from "../data/data";
 
 const Skills = () => {
   return (
-    <div name="skills" className="dark:text-white min-h-screen">
+    <div name="skills" className="dark:text-white min-h-screen -z-10">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center">
         <div className=" justify-between">
@@ -16,7 +16,7 @@ const Skills = () => {
         <div className="w-full grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-2 text-center py-8">
           {SkiilsIcons.map((content) => (
             <div
-              className="bg-pink-1 mx-auto py-2 min-h-[160px] min-w-[120px] max-w-[300px] shadow-2xl dark:shadow-black rounded-md flex flex-col justify-between hover:scale-110 duration-500"
+              className="bg-pink-1 mx-auto py-2 min-h-[160px] min-w-[120px] max-w-[300px] shadow-2xl dark:shadow-black rounded-md flex flex-col justify-between hover:scale-105 duration-500"
               key={content.id}
             >
               <img

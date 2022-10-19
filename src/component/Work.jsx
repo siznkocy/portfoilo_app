@@ -14,7 +14,7 @@ const Work = () => {
             {` Check some of my recent work`}
           </p>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-2">
+        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-2">
           {/* Card */}
           {WebApplication.map((project) => (
             <div
@@ -27,7 +27,7 @@ const Work = () => {
                 <span className="text-2xl font-bold tetx-white tracking-wider min-w-[400px]">
                   {project.name}
                 </span>
-                <div className="pt-8 text-center space-x-2">
+                <div className="pt-8 text-center">
                   <a
                     rel="noopener noreferrer"
                     href={project.demo}
