@@ -13,14 +13,16 @@ function App() {
 
   return (
     <div className={darkMode ? "dark" : ""}>
-      <main className="main bg-white px-1 md:px-32 dark:bg-gray-900 max-w-[1500px]">
-        <Home />
-        <NavBar />
-        <About />
-        <Skills />
-        <Work />
-        <Contact />
-      </main>
+      <div className="dark:bg-gray-900 ">
+        <main className="main bg-white px-1 md:px-32 dark:bg-gray-900 max-w-[1500px] mx-auto w-fit">
+          <Home />
+          <NavBar />
+          <About />
+          <Skills />
+          <Work />
+          <Contact />
+        </main>
+      </div>
     </div>
   );
 }

@@ -18,9 +18,8 @@ const About = () => {
           </div>
           <div>
             <p className="text-xl dark:text-gray-400">
-              I'm a passinate software developer.I specialize in creating state
-              of the art software application for all clients ranging from personal
-              upto enterprises base applications. 
+              I'm a passionate website software developer. I specialize in creating state
+              of the art User Interface (UI) software application. Experience on UX/UI designs and software development as on specifications. 
             </p>
           </div>
         </div>
